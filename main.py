@@ -7,7 +7,7 @@ import numpy as np
 
 def parse_arguments():
     
-    parser = argparse.ArgumentParser(description='SVD or KNN collaborative filtering')
+    parser = argparse.ArgumentParser(description='SVD collaborative filtering')
 
     parser.add_argument(
         "--user",
